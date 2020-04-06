@@ -9,13 +9,19 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @EnvironmentObject var userSession : UserSession
+    
     var body: some View {
         Text("Hello, World!")
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
+    
+    static let enviromentSession = UserSession()
+    
     static var previews: some View {
-        ContentView()
+        ContentView().environmentObject(enviromentSession)
     }
 }
