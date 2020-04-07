@@ -12,4 +12,9 @@ class UserSession: ObservableObject {
  
     @Published var isUserLoggedIn : Bool = false
     
+    
+    //Meget simpel login funktion
+    func logIn() {
+        isUserLoggedIn = true
+    }
 }
