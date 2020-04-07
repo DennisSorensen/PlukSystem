@@ -13,7 +13,9 @@ struct ContentView: View {
     @EnvironmentObject var userSession : UserSession
     
     var body: some View {
-        Text("Hello, World!")
+        Toggle(isOn: $userSession.isUserLoggedIn) {
+            Text("Er bruger logget ind")
+        }
     }
 }
 
