@@ -24,6 +24,8 @@ struct ContentView: View {
             NavigationLink(destination: LoginView()) {
                 Text("Hop til næste skærm")
             }
+                
+                Text("Brand Farve").foregroundColor(.brandAction)
         }.navigationBarTitle("Test Enviroment")
         }
     }

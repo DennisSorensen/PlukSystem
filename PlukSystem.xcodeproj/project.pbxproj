@@ -16,6 +16,7 @@
 		952735F3243BB89C00EC4EE3 /* IgnoredSwiftUIFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952735F2243BB89C00EC4EE3 /* IgnoredSwiftUIFile.swift */; };
 		952735F6243BB8F700EC4EE3 /* UserSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952735F5243BB8F700EC4EE3 /* UserSession.swift */; };
 		952735F9243BB98600EC4EE3 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952735F8243BB98600EC4EE3 /* LoginView.swift */; };
+		952735FC243CC16500EC4EE3 /* Color+BrandColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952735FB243CC16500EC4EE3 /* Color+BrandColors.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		952735F2243BB89C00EC4EE3 /* IgnoredSwiftUIFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IgnoredSwiftUIFile.swift; sourceTree = "<group>"; };
 		952735F5243BB8F700EC4EE3 /* UserSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSession.swift; sourceTree = "<group>"; };
 		952735F8243BB98600EC4EE3 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		952735FB243CC16500EC4EE3 /* Color+BrandColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+BrandColors.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 		952735DC243BB6AA00EC4EE3 /* PlukSystem */ = {
 			isa = PBXGroup;
 			children = (
+				952735FA243CC13100EC4EE3 /* Extensions */,
 				952735F7243BB96D00EC4EE3 /* Views */,
 				952735F4243BB8C300EC4EE3 /* Models */,
 				952735F1243BB87600EC4EE3 /* IgnoredFiles */,
@@ -106,6 +109,14 @@
 				952735F8243BB98600EC4EE3 /* LoginView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		952735FA243CC13100EC4EE3 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				952735FB243CC16500EC4EE3 /* Color+BrandColors.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -179,6 +190,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				952735FC243CC16500EC4EE3 /* Color+BrandColors.swift in Sources */,
 				952735F9243BB98600EC4EE3 /* LoginView.swift in Sources */,
 				952735DE243BB6AA00EC4EE3 /* AppDelegate.swift in Sources */,
 				952735F6243BB8F700EC4EE3 /* UserSession.swift in Sources */,
