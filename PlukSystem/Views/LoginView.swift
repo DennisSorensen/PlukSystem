@@ -9,13 +9,20 @@
 import SwiftUI
 
 struct LoginView: View {
+    
+    @EnvironmentObject var userSession : UserSession
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Toggle(isOn: $userSession.isUserLoggedIn) {
+            Text("LoginView Er bruger logget ind")
+        }.padding()
     }
 }
 
 struct LoginView_Previews: PreviewProvider {
+    static let userSession = UserSession()
+    
     static var previews: some View {
-        LoginView()
+        LoginView().environmentObject(userSession)
     }
 }
