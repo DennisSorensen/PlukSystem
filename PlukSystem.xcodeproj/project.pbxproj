@@ -19,6 +19,7 @@
 		952735FC243CC16500EC4EE3 /* Color+BrandColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952735FB243CC16500EC4EE3 /* Color+BrandColors.swift */; };
 		9592BF832444E66100F3ED20 /* ChoosePickListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9592BF822444E66000F3ED20 /* ChoosePickListView.swift */; };
 		9592BF852444E6D400F3ED20 /* NotLoggedInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9592BF842444E6D400F3ED20 /* NotLoggedInView.swift */; };
+		9592BF872445D54F00F3ED20 /* UserAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9592BF862445D54F00F3ED20 /* UserAuth.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		952735FB243CC16500EC4EE3 /* Color+BrandColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+BrandColors.swift"; sourceTree = "<group>"; };
 		9592BF822444E66000F3ED20 /* ChoosePickListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoosePickListView.swift; sourceTree = "<group>"; };
 		9592BF842444E6D400F3ED20 /* NotLoggedInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotLoggedInView.swift; sourceTree = "<group>"; };
+		9592BF862445D54F00F3ED20 /* UserAuth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAuth.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 			isa = PBXGroup;
 			children = (
 				952735F5243BB8F700EC4EE3 /* UserSession.swift */,
+				9592BF862445D54F00F3ED20 /* UserAuth.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -196,6 +199,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9592BF872445D54F00F3ED20 /* UserAuth.swift in Sources */,
 				952735FC243CC16500EC4EE3 /* Color+BrandColors.swift in Sources */,
 				952735F9243BB98600EC4EE3 /* LoginView.swift in Sources */,
 				9592BF832444E66100F3ED20 /* ChoosePickListView.swift in Sources */,
