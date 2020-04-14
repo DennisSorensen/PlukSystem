@@ -20,6 +20,7 @@
 		9592BF832444E66100F3ED20 /* ChoosePickListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9592BF822444E66000F3ED20 /* ChoosePickListView.swift */; };
 		9592BF852444E6D400F3ED20 /* NotLoggedInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9592BF842444E6D400F3ED20 /* NotLoggedInView.swift */; };
 		9592BF872445D54F00F3ED20 /* UserAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9592BF862445D54F00F3ED20 /* UserAuth.swift */; };
+		9592BF892445DA9000F3ED20 /* NumberBoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9592BF882445DA9000F3ED20 /* NumberBoxView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		9592BF822444E66000F3ED20 /* ChoosePickListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoosePickListView.swift; sourceTree = "<group>"; };
 		9592BF842444E6D400F3ED20 /* NotLoggedInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotLoggedInView.swift; sourceTree = "<group>"; };
 		9592BF862445D54F00F3ED20 /* UserAuth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAuth.swift; sourceTree = "<group>"; };
+		9592BF882445DA9000F3ED20 /* NumberBoxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberBoxView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +118,7 @@
 				952735F8243BB98600EC4EE3 /* LoginView.swift */,
 				9592BF822444E66000F3ED20 /* ChoosePickListView.swift */,
 				9592BF842444E6D400F3ED20 /* NotLoggedInView.swift */,
+				9592BF882445DA9000F3ED20 /* NumberBoxView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -206,6 +209,7 @@
 				952735DE243BB6AA00EC4EE3 /* AppDelegate.swift in Sources */,
 				952735F6243BB8F700EC4EE3 /* UserSession.swift in Sources */,
 				952735E0243BB6AA00EC4EE3 /* SceneDelegate.swift in Sources */,
+				9592BF892445DA9000F3ED20 /* NumberBoxView.swift in Sources */,
 				9592BF852444E6D400F3ED20 /* NotLoggedInView.swift in Sources */,
 				952735F3243BB89C00EC4EE3 /* IgnoredSwiftUIFile.swift in Sources */,
 				952735E2243BB6AA00EC4EE3 /* ContentView.swift in Sources */,
