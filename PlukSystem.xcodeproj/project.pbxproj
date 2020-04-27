@@ -21,6 +21,7 @@
 		9592BF852444E6D400F3ED20 /* NotLoggedInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9592BF842444E6D400F3ED20 /* NotLoggedInView.swift */; };
 		9592BF872445D54F00F3ED20 /* UserAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9592BF862445D54F00F3ED20 /* UserAuth.swift */; };
 		9592BF892445DA9000F3ED20 /* NumberBoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9592BF882445DA9000F3ED20 /* NumberBoxView.swift */; };
+		95E2FC392456EB1200790E1C /* BadgeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E2FC382456EB1200790E1C /* BadgeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		9592BF842444E6D400F3ED20 /* NotLoggedInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotLoggedInView.swift; sourceTree = "<group>"; };
 		9592BF862445D54F00F3ED20 /* UserAuth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAuth.swift; sourceTree = "<group>"; };
 		9592BF882445DA9000F3ED20 /* NumberBoxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberBoxView.swift; sourceTree = "<group>"; };
+		95E2FC382456EB1200790E1C /* BadgeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BadgeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +117,7 @@
 		952735F7243BB96D00EC4EE3 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				95E2FC382456EB1200790E1C /* BadgeView.swift */,
 				952735F8243BB98600EC4EE3 /* LoginView.swift */,
 				9592BF822444E66000F3ED20 /* ChoosePickListView.swift */,
 				9592BF842444E6D400F3ED20 /* NotLoggedInView.swift */,
@@ -202,6 +205,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95E2FC392456EB1200790E1C /* BadgeView.swift in Sources */,
 				9592BF872445D54F00F3ED20 /* UserAuth.swift in Sources */,
 				952735FC243CC16500EC4EE3 /* Color+BrandColors.swift in Sources */,
 				952735F9243BB98600EC4EE3 /* LoginView.swift in Sources */,

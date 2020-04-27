@@ -48,10 +48,11 @@ struct NotLoggedInView: View {
                     .cornerRadius(5)
                     .shadow(radius: 4)
                     .padding(.top, 30)
-            }.sheet(isPresented: .constant(self.showTheSheet)) {
-                LoginView().environmentObject(self.userSession)
-                
-                //TODO: Skift til den anden isPressed
+            }.sheet(isPresented: $showingLoginSheet) {
+                //LoginView().environmentObject(self.userSession)
+                LoginView {
+                    self.showingLoginSheet = false
+                }.environmentObject(self.userSession)
             }
             
         }
