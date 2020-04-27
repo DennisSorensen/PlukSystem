@@ -19,7 +19,8 @@ struct BadgeView: View {
             HStack {
                 if !self.badgeText.isEmpty {
                     Text(self.badgeText)
-                        .padding(10)
+                        .padding([.leading, .trailing],10)
+                        .padding([.top, .bottom], 5)
                         .background(Color.red)
                         .foregroundColor(.white)
                         .clipShape(Capsule())
