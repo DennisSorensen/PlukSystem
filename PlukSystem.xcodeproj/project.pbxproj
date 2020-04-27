@@ -22,6 +22,8 @@
 		9592BF872445D54F00F3ED20 /* UserAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9592BF862445D54F00F3ED20 /* UserAuth.swift */; };
 		9592BF892445DA9000F3ED20 /* NumberBoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9592BF882445DA9000F3ED20 /* NumberBoxView.swift */; };
 		95E2FC392456EB1200790E1C /* BadgeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E2FC382456EB1200790E1C /* BadgeView.swift */; };
+		95E2FC3B2456F8A700790E1C /* PickList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E2FC3A2456F8A700790E1C /* PickList.swift */; };
+		95E2FC3D2456FAE200790E1C /* SalesOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E2FC3C2456FAE200790E1C /* SalesOrder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +44,8 @@
 		9592BF862445D54F00F3ED20 /* UserAuth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAuth.swift; sourceTree = "<group>"; };
 		9592BF882445DA9000F3ED20 /* NumberBoxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberBoxView.swift; sourceTree = "<group>"; };
 		95E2FC382456EB1200790E1C /* BadgeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BadgeView.swift; sourceTree = "<group>"; };
+		95E2FC3A2456F8A700790E1C /* PickList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickList.swift; sourceTree = "<group>"; };
+		95E2FC3C2456FAE200790E1C /* SalesOrder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalesOrder.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +114,8 @@
 			children = (
 				952735F5243BB8F700EC4EE3 /* UserSession.swift */,
 				9592BF862445D54F00F3ED20 /* UserAuth.swift */,
+				95E2FC3A2456F8A700790E1C /* PickList.swift */,
+				95E2FC3C2456FAE200790E1C /* SalesOrder.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -207,8 +213,10 @@
 			files = (
 				95E2FC392456EB1200790E1C /* BadgeView.swift in Sources */,
 				9592BF872445D54F00F3ED20 /* UserAuth.swift in Sources */,
+				95E2FC3B2456F8A700790E1C /* PickList.swift in Sources */,
 				952735FC243CC16500EC4EE3 /* Color+BrandColors.swift in Sources */,
 				952735F9243BB98600EC4EE3 /* LoginView.swift in Sources */,
+				95E2FC3D2456FAE200790E1C /* SalesOrder.swift in Sources */,
 				9592BF832444E66100F3ED20 /* ChoosePickListView.swift in Sources */,
 				952735DE243BB6AA00EC4EE3 /* AppDelegate.swift in Sources */,
 				952735F6243BB8F700EC4EE3 /* UserSession.swift in Sources */,
