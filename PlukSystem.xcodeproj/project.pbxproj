@@ -24,6 +24,7 @@
 		95E2FC392456EB1200790E1C /* BadgeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E2FC382456EB1200790E1C /* BadgeView.swift */; };
 		95E2FC3B2456F8A700790E1C /* PickList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E2FC3A2456F8A700790E1C /* PickList.swift */; };
 		95E2FC3D2456FAE200790E1C /* SalesOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E2FC3C2456FAE200790E1C /* SalesOrder.swift */; };
+		95E2FC3F2456FCAC00790E1C /* ChoosePickListViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E2FC3E2456FCAC00790E1C /* ChoosePickListViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +47,7 @@
 		95E2FC382456EB1200790E1C /* BadgeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BadgeView.swift; sourceTree = "<group>"; };
 		95E2FC3A2456F8A700790E1C /* PickList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickList.swift; sourceTree = "<group>"; };
 		95E2FC3C2456FAE200790E1C /* SalesOrder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalesOrder.swift; sourceTree = "<group>"; };
+		95E2FC3E2456FCAC00790E1C /* ChoosePickListViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoosePickListViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +130,7 @@
 				9592BF822444E66000F3ED20 /* ChoosePickListView.swift */,
 				9592BF842444E6D400F3ED20 /* NotLoggedInView.swift */,
 				9592BF882445DA9000F3ED20 /* NumberBoxView.swift */,
+				95E2FC3E2456FCAC00790E1C /* ChoosePickListViewCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -221,6 +224,7 @@
 				952735DE243BB6AA00EC4EE3 /* AppDelegate.swift in Sources */,
 				952735F6243BB8F700EC4EE3 /* UserSession.swift in Sources */,
 				952735E0243BB6AA00EC4EE3 /* SceneDelegate.swift in Sources */,
+				95E2FC3F2456FCAC00790E1C /* ChoosePickListViewCell.swift in Sources */,
 				9592BF892445DA9000F3ED20 /* NumberBoxView.swift in Sources */,
 				9592BF852444E6D400F3ED20 /* NotLoggedInView.swift in Sources */,
 				952735F3243BB89C00EC4EE3 /* IgnoredSwiftUIFile.swift in Sources */,
