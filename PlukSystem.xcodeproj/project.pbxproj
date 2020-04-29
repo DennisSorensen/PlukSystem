@@ -17,6 +17,7 @@
 		952735F6243BB8F700EC4EE3 /* UserSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952735F5243BB8F700EC4EE3 /* UserSession.swift */; };
 		952735F9243BB98600EC4EE3 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952735F8243BB98600EC4EE3 /* LoginView.swift */; };
 		952735FC243CC16500EC4EE3 /* Color+BrandColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952735FB243CC16500EC4EE3 /* Color+BrandColors.swift */; };
+		953424C9245A01AB0023E688 /* PickListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953424C8245A01AB0023E688 /* PickListView.swift */; };
 		9592BF832444E66100F3ED20 /* ChoosePickListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9592BF822444E66000F3ED20 /* ChoosePickListView.swift */; };
 		9592BF852444E6D400F3ED20 /* NotLoggedInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9592BF842444E6D400F3ED20 /* NotLoggedInView.swift */; };
 		9592BF872445D54F00F3ED20 /* UserAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9592BF862445D54F00F3ED20 /* UserAuth.swift */; };
@@ -40,6 +41,7 @@
 		952735F5243BB8F700EC4EE3 /* UserSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSession.swift; sourceTree = "<group>"; };
 		952735F8243BB98600EC4EE3 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		952735FB243CC16500EC4EE3 /* Color+BrandColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+BrandColors.swift"; sourceTree = "<group>"; };
+		953424C8245A01AB0023E688 /* PickListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickListView.swift; sourceTree = "<group>"; };
 		9592BF822444E66000F3ED20 /* ChoosePickListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoosePickListView.swift; sourceTree = "<group>"; };
 		9592BF842444E6D400F3ED20 /* NotLoggedInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotLoggedInView.swift; sourceTree = "<group>"; };
 		9592BF862445D54F00F3ED20 /* UserAuth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAuth.swift; sourceTree = "<group>"; };
@@ -131,6 +133,7 @@
 				9592BF842444E6D400F3ED20 /* NotLoggedInView.swift */,
 				9592BF882445DA9000F3ED20 /* NumberBoxView.swift */,
 				95E2FC3E2456FCAC00790E1C /* ChoosePickListViewCell.swift */,
+				953424C8245A01AB0023E688 /* PickListView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -225,6 +228,7 @@
 				952735F6243BB8F700EC4EE3 /* UserSession.swift in Sources */,
 				952735E0243BB6AA00EC4EE3 /* SceneDelegate.swift in Sources */,
 				95E2FC3F2456FCAC00790E1C /* ChoosePickListViewCell.swift in Sources */,
+				953424C9245A01AB0023E688 /* PickListView.swift in Sources */,
 				9592BF892445DA9000F3ED20 /* NumberBoxView.swift in Sources */,
 				9592BF852444E6D400F3ED20 /* NotLoggedInView.swift in Sources */,
 				952735F3243BB89C00EC4EE3 /* IgnoredSwiftUIFile.swift in Sources */,

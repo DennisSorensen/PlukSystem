@@ -12,20 +12,13 @@ struct ChoosePickListView: View {
     
     @EnvironmentObject var userSession : UserSession
     
-    let pickLists = PickList.demoData
-    
     var body: some View {
         VStack {
             if !userSession.isUserLoggedIn { //Hvis man ikke er logget ind
                 NotLoggedInView()
             }
             else { //Hvis der er logget ind
-//                List(1..<4) {tal in
-//                    Text("\(tal)")
-//                }
-                List(pickLists) { pickList in
-                    ChoosePickListViewCell(pickList: pickList)
-                }
+                PickListView()
             }
             
             EmptyView() //Viser ingen ting
