@@ -10,13 +10,32 @@ import SwiftUI
 
 struct PickListView: View {
     
-    let pickLists = PickList.demoData
+    @State private var pickLists : [PickList] = PickList.demoData
+    
+    var picklistData : [PickList]
+    
+    init() {
+        self.picklistData = PickList.demoData
+    }
     
     var body: some View {
         
-        List(pickLists) { pickList in
-            ChoosePickListViewCell(pickList: Binding.constant(pickList))
+        List{
+            //snyder ved at løbe genne array og bruge index i stedet
+            ForEach(0..<pickLists.count) {ix in
+                //Når jeg står her har jeg fat i min picklist
+                //Text("\(self.pickLists[ix].toBePicked)")
+                //Laver en inline binding
+                ChoosePickListViewCell(pickList: Binding(get: {
+                    return self .pickLists[ix]
+                }, set: { (newValue) in
+                    return self.pickLists[ix] = newValue
+                }))
+            }
         }
+        //        List(pickLists) { pickList in
+        //            ChoosePickListViewCell(pickList: Binding.constant(pickList))
+        //        }
     }
 }
 
